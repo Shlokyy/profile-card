@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif
+}
+.main-div{
+height: 100vh;
+background-color: hsl(185, 75%, 39%);
+background-image: url("bg-pattern-top.svg"), url("bg-pattern-bottom.svg");
+background-repeat: no-repeat, no-repeat;
+background-position: top -500px left -40%, bottom -600px right -40%;
+background-size: 60%, 65%;
+    
+}
+body{
+background-color: hsl(185, 75%, 39%);
+}
+.img img{
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px ;
+}
+.card{
+    border-radius: 25px;
+    margin: 100px auto;
+    width: 350px;
+    height: 400px;
+    background-color: white;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.profile img{
+    /* position: absolute;
+    border-radius: 60px;
+    left: 46%;
+    bottom: 55%; */
+    border: 2px solid white;
+    border-radius: 50px;
+    position: relative;
+    top: -50px;
+}
+.profile span{
+    display: flex;
+}
+.profile span p{
+    padding-top: 1px;
+    padding-left: 8px;
+    font-size: 23px;
+    color: hsl(0, 0%, 59%);
+}
+.followers{
+    /* margin-top: 10px; */
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.followers p{
+    padding-top: 6px;
+}
+.data{
+margin-top: 8px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+hr{
+    margin-top: 25px;
+}
+.data p{
+    color: hsl(0, 0%, 59%);
+}
+.profile p{
+color: hsl(0, 0%, 59%);
+}
